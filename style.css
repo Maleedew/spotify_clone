@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root{
+    --text-Color:#b3b3b3;
+    --sec-bg-color:#121212;
+    --card-color:#1f1f1f;
+    --main--text-color:#f9f9f9;
+}
+
+body{
+    background-color: black;
+
+}
+nav{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+nav .ser{
+    width: 390px;
+    height: 50px;
+    background: #282828;
+    border-radius: 50px;
+    
+}
+
+nav .sp{
+    width: 35px;
+    height: 35px;
+    margin: 8px 15px;
+    
+}
+
+nav .hm{
+    width: 70px;
+    margin-top: -10px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: var(--text-Color);
+    
+}
+
+.ssss{
+    width: 20px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.sep{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 40px;
+    color: var(--text-Color);
+}
+
+.sepbro{
+    margin-top: -25px;
+    margin-left: 350px;
+}
+
+.lg{
+    background-color: aliceblue;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    width: 120px;
+    height: 50px;
+    margin-left: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    margin-top: -10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    gap: 8px;
+    
+}
+
+.lepdiv{
+    background-color: var(--sec-bg-color);
+    width: 33%;
+    height: inherit;
+    border-radius: 8px;
+
+}
+
+.rigdiv{
+    background-color: var(--sec-bg-color);
+    width: 66%;
+    height: inherit;
+    border-radius: 8px;
+}
+
+.leprow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.leph3{
+    margin-left: 5px;
+    margin-top: 8px;
+    font-size: 1rem;
+    color: var(--text-Color);
+}
+
+.lepplus{
+    color: var(--text-Color);
+    margin-top: 5px;
+    margin-left: 250px;
+    font-size: 1.5rem;
+}
+
+.subcon{
+    background-color: var(--card-color);
+    margin: 30px 10px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+
+.subhed{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--main--text-color);
+}
+
+.subtext{
+    color: var(--main--text-color);
+    line-height: 45px;
+    font-weight: 300;
+}
+
+.subbtn{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    
+}
+
+.tigrow{
+    color: var(--main--text-color);
+    font-size: 24px;
+    margin: 24px 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.tigrow:hover{
+    text-decoration: underline;
+}
+
+.rigshow{
+    font-size: 14px;
+    color: var(--text-Color);
+}
+
+.rigimg{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rigass{
+    border-radius: 50%;
+    width: 130px;
+}
+
+.imgp{
+    color: var(--main--text-color);
+}
+
+.imgt{
+    color: var(--text-Color);
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.rigkotu{
+    border-radius: 8px;
+    width: 130px;
+}
+
+.leplist{
+    display: flex;
+    margin-left: 15px;
+}
+
+.lip{
+    font-size: 11px;
+    color: var(--text-Color);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    
+}
+
+.lipcc{
+    font-size: 12px;
+    color: var(--text-Color);
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.mal{
+    height: 200px;
+}
+
+.lastbtn{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 50px;
+    justify-content: space-around;
+    padding: 5px;
+    margin-left: 25px;
+}
+
+.lastbb{
+    width: 20px;
+}
+
+.lststt{
+    color: var(--main--text-color);
+}
